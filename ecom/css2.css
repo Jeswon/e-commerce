@@ -1,0 +1,32 @@
+.b-choose-location-popup {
+    position: relative;
+    height: 605px;
+    box-shadow: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #eef2f4;
+    border-radius: 16px;
+}
+.b-choose-location-popup a {
+    color: inherit;
+}
+.b-choose-location-popup .b-mobile-search-input {
+    width: 300px;
+}
+.b-region-section-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #d0dadd;
+    min-height: 50px;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 0 16px;
+}
+.b-region-section-list__value {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2da57c;
+}

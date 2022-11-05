@@ -1,0 +1,39 @@
+.sub-title {
+    margin-top:17px;
+    margin-bottom:-7px;
+    font-style:normal;
+    font-weight:274;
+    font-size:13px;
+    line-height:16px;
+    color:#889399;
+    grid-column-gap:8px;
+    -moz-column-gap:8px;
+    column-gap:8px;
+    list-style-type:none;
+    padding:0;
+    }
+    
+    .sub-title a {
+    display:inline-block;
+    color:#000;
+    }
+    
+    .sub-title a,.sub-title li>span {
+    background:#fff;
+    border-radius:29px;
+    padding:4px 8px;
+    }
+    
+    .sub-title li>span {
+    color:#889399;
+    }
+    
+    .h-pt-40 {
+    padding-top:40px;
+    }
+    
+    @mediamax-width767px{
+    .sub-title {
+    display:none;
+    }
+    }

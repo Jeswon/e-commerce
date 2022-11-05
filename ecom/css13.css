@@ -1,0 +1,26 @@
+.side-filter__show-all {
+    color:#2da57c;
+    text-decoration:underline;
+    font-size:14px;
+    font-weight:700;
+    margin-left:12px;
+    }
+    
+    .fw-popup__container {
+    width:100%;
+    max-width:932px;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    margin:15vh auto 50px;
+    }
+    
+    .fw-popup__back {
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    z-index:12;
+    top:0;
+    left:0;
+    }

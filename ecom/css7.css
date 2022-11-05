@@ -1,0 +1,33 @@
+.fw-mobile-nested-selection-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    margin: 0 !important;
+}
+.fw-mobile-nested-selection-popup__header {
+    background-color: #2da57c;
+}
+.fw-mobile-nested-selection-popup__body {
+    height: calc(100vh - 56px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+.fw-mobile-nested-selection-popup ul {
+    margin: 0;
+    padding: 8px 0 0;
+}
+.b-option-label-text {
+    color: #303a4b;
+}
+.b-mobile-popup-item-list__item--highlighted .b-option-label-text {
+    color: #2da57c;
+}
+.b-all-country-mobile-popup-item__all-country {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

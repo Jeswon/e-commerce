@@ -1,0 +1,189 @@
+.fw-field-container {
+    text-align:left;
+    margin:0 0 24px;
+    }
+    
+    .fw-field-container--has-span {
+    margin:0 0 8px;
+    }
+    
+    .fw-field {
+    background:#fff;
+    border:1px solid #99b2bf;
+    box-sizing:border-box;
+    border-radius:4px;
+    min-height:48px;
+    display:flex;
+    position:relative;
+    }
+    
+    .fw-field .fw-field__content>label {
+    position:absolute;
+    background:#fff;
+    color:#99b2bf;
+    font-size:14px;
+    line-height:18px;
+    transition:transform .2s,color .2s;
+    font-style:normal;
+    font-weight:400;
+    top:14px;
+    left:14px;
+    pointer-events:none;
+    will-change:transform,color;
+    z-index:6;
+    width:auto;
+    border-radius:6px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    max-width:80%;
+    }
+    
+    .fw-field.fw-focused .fw-field__content>label,.fw-field.fw-has-value .fw-field__content>label {
+    color:#2da57c;
+    transform:translateY(-24px);
+    font-size:12px;
+    line-height:18px;
+    padding:0 4px;
+    }
+    
+    .fw-field.fw-focused input.fw-input,.fw-field.fw-has-value input.fw-input {
+    opacity:1;
+    }
+    
+    .fw-field.fw-focused {
+    border:1px solid #2da57c;
+    }
+    
+    .fw-field.fw-disabled {
+    opacity:.4;
+    }
+    
+    .fw-field.fw-has-error {
+    border:1px solid #eb5757;
+    }
+    
+    .fw-field.fw-has-error .fw-field__icon-container {
+    background:#fe9696;
+    color:#fff;
+    fill:#fff;
+    }
+    
+    .fw-field.fw-has-icon .fw-field__content>label {
+    overflow:hidden;
+    max-width:80%;
+    white-space:nowrap;
+    display:block;
+    text-overflow:ellipsis;
+    }
+    
+    .fw-field.fw-has-icon .bc-input__button,.fw-field.fw-has-icon .bc-input__icon {
+    margin-right:15px;
+    }
+    
+    .fw-field.fw-no-border {
+    border:none;
+    }
+    
+    .fw-field__content {
+    display:flex;
+    flex-grow:1;
+    position:relative;
+    width:100%;
+    }
+    
+    .fw-field__error,.fw-field__hint {
+    font-size:12px;
+    line-height:16px;
+    padding-left:13px;
+    display:block;
+    }
+    
+    .fw-field__reference {
+    font-size:12px;
+    line-height:16px;
+    color:#2da57c;
+    padding-left:13px;
+    display:block;
+    text-align:right;
+    }
+    
+    .fw-field__icon-container {
+    position:absolute;
+    width:48px;
+    height:100%;
+    text-align:center;
+    background-color:#eef2f4;
+    color:#99b2bf;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    }
+    
+    .bc-input__button {
+    cursor:pointer;
+    }
+    
+    .bc-input__button,.bc-input__icon {
+    position:absolute;
+    right:18px;
+    top:17px;
+    }
+    
+    .bc-input__icon {
+    font-size:11px;
+    height:16px;
+    width:25px;
+    border:1px dashed #99b2bf;
+    }
+    
+    .bc-input__password-icon {
+    top:12px;
+    }
+    
+    .bc-input__maxlength {
+    position:absolute;
+    right:0;
+    top:-15px;
+    font-size:10px;
+    line-height:12px;
+    color:#99b2bf;
+    }
+    
+    input:-webkit-autofill,input:-webkit-autofill:focus,input:-webkit-autofill:hover,select:-webkit-autofill,select:-webkit-autofill:focus,select:-webkit-autofill:hover {
+    color:#303a4b!important;
+    background-color:#fff!important;
+    -webkit-box-shadow:0 0 0 1000px #fff inset;
+    }
+    
+    .b-filter-attribute-multi-select {
+    will-change:height,opacity;
+    transform:translateZ(0);
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    perspective:1000px;
+    overflow:hidden;
+    padding:0 0 16px;
+    }
+    
+    .fw-field.fw-focused.fw-has-icon,.fw-field.fw-has-value.fw-has-icon,.fw-field.fw-has-icon {
+    padding-left:48px;
+    }
+    
+    .fw-field.fw-disabled .fw-input,.fw-field.fw-disabled .fw-textarea,.fw-field__hint {
+    color:#99b2bf;
+    }
+    
+    .fw-field.fw-has-error.fw-focused .fw-field__content>label,.fw-field.fw-has-error.fw-has-value .fw-field__content>label,.fw-field__error {
+    color:#eb5757;
+    }
+    
+    @mediamax-width767px{
+    .b-filter-attribute-multi-select {
+    padding:0;
+    }
+    }
